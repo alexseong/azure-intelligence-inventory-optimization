@@ -1,0 +1,40 @@
+Creating ADL client took 0.15399742126464844 seconds.
+Started solving optimization problem
+Downloading optimization/input_csv/sQperishable/5/3_1/sQperishable_1_P_0_5_3_1.csv
+data.load(filename = 'sQperishable_1_P_0_5_3_1.csv', param = (model.a))
+finished execution
+Downloading optimization/input_csv/sQperishable/5/3_1/sQperishable_2_P_0_5_3_1.csv
+data.load(filename = 'sQperishable_2_P_0_5_3_1.csv', param = (model.h))
+finished execution
+Downloading optimization/input_csv/sQperishable/5/3_1/sQperishable_3_P_0_5_3_1.csv
+data.load(filename = 'sQperishable_3_P_0_5_3_1.csv', param = (model.K))
+finished execution
+Downloading optimization/input_csv/sQperishable/5/3_1/sQperishable_4_P_0_5_3_1.csv
+data.load(filename = 'sQperishable_4_P_0_5_3_1.csv', param = (model.max_lead_demand))
+finished execution
+Downloading optimization/input_csv/sQperishable/5/3_1/sQperishable_5_P_0_5_3_1.csv
+data.load(filename = 'sQperishable_5_P_0_5_3_1.csv', param = (model.max_s_Q))
+finished execution
+Downloading optimization/input_csv/sQperishable/5/3_1/sQperishable_6_P_0_5_3_1.csv
+data.load(filename = 'sQperishable_6_P_0_5_3_1.csv', param = (model.min_s_Q))
+finished execution
+Downloading optimization/input_csv/sQperishable/5/3_1/sQperishable_7_P_0_5_3_1.csv
+data.load(filename = 'sQperishable_7_P_0_5_3_1.csv', param = (model.mu))
+finished execution
+Downloading optimization/input_csv/sQperishable/5/3_1/sQperishable_8_P_0_5_3_1.csv
+data.load(filename = 'sQperishable_8_P_0_5_3_1.csv', param = (model.pi))
+finished execution
+Downloading optimization/input_csv/sQperishable/5/3_1/sQperishable_9_P_1_5_3_1.csv
+data.load(filename = 'sQperishable_9_P_1_5_3_1.csv', param = (model.prob_lead_demand), index = (model.big_demand))
+finished execution
+Downloading optimization/input_csv/sQperishable/5/3_1/sQperishable_10_P_1_5_3_1.csv
+data.load(filename = 'sQperishable_10_P_1_5_3_1.csv', param = (model.prob_lead_lifetime), index = (model.s_Q))
+finished execution
+Downloading optimization/input_csv/sQperishable/5/3_1/sQperishable_11_P_0_5_3_1.csv
+data.load(filename = 'sQperishable_11_P_0_5_3_1.csv', param = (model.W))
+finished execution
+Solving optimization problem took 5.294231653213501 seconds.
+Total time for generating solution:  5.296302318572998 seconds.
+Uploading file /mnt/batch/tasks/workitems/InventoryOptimization_s_Q_perishable_201701090000/job-1/task_5_3_1/wd/s_Q_perishable_201701090000.csv to ADL folder [/optimization/output_csv/sQperishable/5/3_1]...
+Uploading results took  0.6227104663848877 seconds.
+Total time: 6.075019121170044 seconds.

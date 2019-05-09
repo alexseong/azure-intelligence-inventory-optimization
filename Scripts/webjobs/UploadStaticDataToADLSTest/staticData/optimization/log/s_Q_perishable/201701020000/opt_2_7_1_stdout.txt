@@ -1,0 +1,42 @@
+Creating ADL client took 0.13958287239074707 seconds.
+Started solving optimization problem
+Downloading optimization/input_csv/sQperishable/2/7_1/sQperishable_1_P_0_2_7_1.csv
+data.load(filename = 'sQperishable_1_P_0_2_7_1.csv', param = (model.a))
+finished execution
+Downloading optimization/input_csv/sQperishable/2/7_1/sQperishable_2_P_0_2_7_1.csv
+data.load(filename = 'sQperishable_2_P_0_2_7_1.csv', param = (model.h))
+finished execution
+Downloading optimization/input_csv/sQperishable/2/7_1/sQperishable_3_P_0_2_7_1.csv
+data.load(filename = 'sQperishable_3_P_0_2_7_1.csv', param = (model.K))
+finished execution
+Downloading optimization/input_csv/sQperishable/2/7_1/sQperishable_4_P_0_2_7_1.csv
+data.load(filename = 'sQperishable_4_P_0_2_7_1.csv', param = (model.max_lead_demand))
+finished execution
+Downloading optimization/input_csv/sQperishable/2/7_1/sQperishable_5_P_0_2_7_1.csv
+data.load(filename = 'sQperishable_5_P_0_2_7_1.csv', param = (model.max_s_Q))
+finished execution
+Downloading optimization/input_csv/sQperishable/2/7_1/sQperishable_6_P_0_2_7_1.csv
+data.load(filename = 'sQperishable_6_P_0_2_7_1.csv', param = (model.min_s_Q))
+finished execution
+Downloading optimization/input_csv/sQperishable/2/7_1/sQperishable_7_P_0_2_7_1.csv
+data.load(filename = 'sQperishable_7_P_0_2_7_1.csv', param = (model.mu))
+finished execution
+Downloading optimization/input_csv/sQperishable/2/7_1/sQperishable_8_P_0_2_7_1.csv
+data.load(filename = 'sQperishable_8_P_0_2_7_1.csv', param = (model.pi))
+finished execution
+Downloading optimization/input_csv/sQperishable/2/7_1/sQperishable_9_P_1_2_7_1.csv
+data.load(filename = 'sQperishable_9_P_1_2_7_1.csv', param = (model.prob_lead_demand), index = (model.big_demand))
+finished execution
+Downloading optimization/input_csv/sQperishable/2/7_1/sQperishable_10_P_1_2_7_1.csv
+data.load(filename = 'sQperishable_10_P_1_2_7_1.csv', param = (model.prob_lead_lifetime), index = (model.s_Q))
+finished execution
+Downloading optimization/input_csv/sQperishable/2/7_1/sQperishable_11_P_0_2_7_1.csv
+data.load(filename = 'sQperishable_11_P_0_2_7_1.csv', param = (model.W))
+finished execution
+WARNING - Loading a SolverResults object with a warning status into model=unknown; message from solver=bonmin\x3a Infeasible problem
+WARNING - Loading a SolverResults object with a warning status into model=unknown; message from solver=bonmin\x3a Infeasible problem
+Solving optimization problem took 4.1450347900390625 seconds.
+Total time for generating solution:  4.147086143493652 seconds.
+Uploading file /mnt/batch/tasks/workitems/InventoryOptimization_s_Q_perishable_201701020000/job-1/task_2_7_1/wd/s_Q_perishable_201701020000.csv to ADL folder [/optimization/output_csv/sQperishable/2/7_1]...
+Uploading results took  0.42611026763916016 seconds.
+Total time: 4.714763164520264 seconds.

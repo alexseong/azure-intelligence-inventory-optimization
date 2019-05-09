@@ -1,0 +1,2 @@
+StoreID,ProductID,InventoryDateTime,Units,ExpiryDateTime
+5,3_1,2017-01-09 00:00:00,3,2017-01-10 07:00:00

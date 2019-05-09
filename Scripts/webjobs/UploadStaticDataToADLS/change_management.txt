@@ -1,0 +1,5 @@
+
+
+#Update the Schedule file to Main webjob, so that it starts after all the static data is uploaded
+#fileName='D:\\home\\site\\wwwroot\\App_data\\jobs\\triggered\\Main\\settings.job'
+fileName= cwd+'\\settings.job'

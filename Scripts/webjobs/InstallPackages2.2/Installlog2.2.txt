@@ -1,0 +1,168 @@
+[05/07/2019 21:01:46 > e9a183: SYS INFO] Status changed to Initializing
+[05/07/2019 21:01:46 > e9a183: SYS INFO] Job directory change detected: Job file 'InstallPackages2.2\run.cmd' timestamp differs between source and working directories.
+[05/07/2019 21:01:46 > e9a183: SYS INFO] Run script 'run.cmd' with script host - 'WindowsScriptHost'
+[05/07/2019 21:01:46 > e9a183: SYS INFO] Status changed to Running
+[05/07/2019 21:01:49 > e9a183: INFO] 
+[05/07/2019 21:01:49 > e9a183: INFO] D:\local\Temp\jobs\triggered\InstallPackages22\s2z5ud1h.b5s\InstallPackages2.2>D:\Python34\python.exe -m pip install msrest --upgrade --user 
+[05/07/2019 21:01:49 > e9a183: INFO] Collecting msrest
+[05/07/2019 21:01:50 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/d7/fa/bb4197e25ff01d089dc0584ad8e7d6c2615ae28b9e850afd165927c89576/msrest-0.6.6-py2.py3-none-any.whl
+[05/07/2019 21:01:50 > e9a183: INFO] Requirement already satisfied, skipping upgrade: isodate>=0.6.0 in d:\local\appdata\python\python36\site-packages (from msrest) (0.6.0)
+[05/07/2019 21:01:50 > e9a183: INFO] Requirement already satisfied, skipping upgrade: certifi>=2017.4.17 in d:\local\appdata\python\python36\site-packages (from msrest) (2019.3.9)
+[05/07/2019 21:01:50 > e9a183: INFO] Collecting requests~=2.16 (from msrest)
+[05/07/2019 21:01:53 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/7d/e3/20f3d364d6c8e5d2353c72a67778eb189176f08e873c9900e10c0287b84b/requests-2.21.0-py2.py3-none-any.whl
+[05/07/2019 21:01:53 > e9a183: INFO] Requirement already satisfied, skipping upgrade: requests-oauthlib>=0.5.0 in d:\local\appdata\python\python36\site-packages (from msrest) (1.2.0)
+[05/07/2019 21:01:53 > e9a183: INFO] Requirement already satisfied, skipping upgrade: six in d:\local\appdata\python\python36\site-packages (from isodate>=0.6.0->msrest) (1.12.0)
+[05/07/2019 21:01:53 > e9a183: INFO] Requirement already satisfied, skipping upgrade: chardet<3.1.0,>=3.0.2 in d:\local\appdata\python\python36\site-packages (from requests~=2.16->msrest) (3.0.4)
+[05/07/2019 21:01:53 > e9a183: INFO] Requirement already satisfied, skipping upgrade: urllib3<1.25,>=1.21.1 in d:\local\appdata\python\python36\site-packages (from requests~=2.16->msrest) (1.21.1)
+[05/07/2019 21:01:53 > e9a183: INFO] Requirement already satisfied, skipping upgrade: idna<2.9,>=2.5 in d:\local\appdata\python\python36\site-packages (from requests~=2.16->msrest) (2.5)
+[05/07/2019 21:01:53 > e9a183: INFO] Requirement already satisfied, skipping upgrade: oauthlib>=3.0.0 in d:\local\appdata\python\python36\site-packages (from requests-oauthlib>=0.5.0->msrest) (3.0.1)
+[05/07/2019 21:01:53 > e9a183: INFO] Installing collected packages: requests, msrest
+[05/07/2019 21:01:53 > e9a183: INFO]   Found existing installation: requests 2.14.2
+[05/07/2019 21:01:53 > e9a183: INFO] 
+[05/07/2019 21:01:53 > e9a183: INFO]     Uninstalling requests-2.14.2:
+[05/07/2019 21:01:53 > e9a183: INFO]       Successfully uninstalled requests-2.14.2
+[05/07/2019 21:01:53 > e9a183: INFO]   Found existing installation: msrest 0.4.8
+[05/07/2019 21:01:53 > e9a183: INFO]     Uninstalling msrest-0.4.8:
+[05/07/2019 21:01:53 > e9a183: INFO]       Successfully uninstalled msrest-0.4.8
+[05/07/2019 21:01:53 > e9a183: INFO] Successfully installed msrest-0.6.6 requests-2.21.0
+[05/07/2019 21:01:53 > e9a183: INFO] 
+[05/07/2019 21:01:53 > e9a183: INFO] D:\local\Temp\jobs\triggered\InstallPackages22\s2z5ud1h.b5s\InstallPackages2.2>D:\Python34\python.exe -m pip install msrestazure --upgrade --user 
+[05/07/2019 21:01:56 > e9a183: INFO] Collecting msrestazure
+[05/07/2019 21:01:57 > e9a183: INFO]   Downloading https://files.pythonhosted.org/packages/46/ba/7870308e3d3b4b3956880eed2df20669a5690436793e6fc1442c8b73e01c/msrestazure-0.6.0-py2.py3-none-any.whl
+[05/07/2019 21:01:57 > e9a183: INFO] Collecting adal<2.0.0,>=0.6.0 (from msrestazure)
+[05/07/2019 21:01:57 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/00/72/53dce9e4f5d6c1aa57b8d408cb34dff1969ecbf10ab7e678f32c5e0e2397/adal-1.2.1-py2.py3-none-any.whl
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: msrest<2.0.0,>=0.6.0 in d:\local\appdata\python\python36\site-packages (from msrestazure) (0.6.6)
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: cryptography>=1.1.0 in d:\local\appdata\python\python36\site-packages (from adal<2.0.0,>=0.6.0->msrestazure) (2.6.1)
+[05/07/2019 21:01:57 > e9a183: ERR ] ERROR: msrestazure 0.4.7 has requirement msrest~=0.4.4, but you'll have msrest 0.6.6 which is incompatible.
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: python-dateutil>=2.1.0 in d:\local\appdata\python\python36\site-packages (from adal<2.0.0,>=0.6.0->msrestazure) (2.8.0)
+[05/07/2019 21:01:57 > e9a183: ERR ] ERROR: blobxfer 0.12.1 has requirement azure-common==1.1.4, but you'll have azure-common 1.1.5 which is incompatible.
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: PyJWT>=1.0.0 in d:\local\appdata\python\python36\site-packages (from adal<2.0.0,>=0.6.0->msrestazure) (1.7.1)
+[05/07/2019 21:01:57 > e9a183: ERR ] ERROR: blobxfer 0.12.1 has requirement requests==2.12.3, but you'll have requests 2.21.0 which is incompatible.
+[05/07/2019 21:01:57 > e9a183: ERR ] ERROR: azure-datalake-store 0.0.11 has requirement msrest~=0.4.5, but you'll have msrest 0.6.6 which is incompatible.
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: requests>=2.0.0 in d:\local\appdata\python\python36\site-packages (from adal<2.0.0,>=0.6.0->msrestazure) (2.21.0)
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: isodate>=0.6.0 in d:\local\appdata\python\python36\site-packages (from msrest<2.0.0,>=0.6.0->msrestazure) (0.6.0)
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: certifi>=2017.4.17 in d:\local\appdata\python\python36\site-packages (from msrest<2.0.0,>=0.6.0->msrestazure) (2019.3.9)
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: requests-oauthlib>=0.5.0 in d:\local\appdata\python\python36\site-packages (from msrest<2.0.0,>=0.6.0->msrestazure) (1.2.0)
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: asn1crypto>=0.21.0 in d:\local\appdata\python\python36\site-packages (from cryptography>=1.1.0->adal<2.0.0,>=0.6.0->msrestazure) (0.24.0)
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: cffi!=1.11.3,>=1.8 in d:\local\appdata\python\python36\site-packages (from cryptography>=1.1.0->adal<2.0.0,>=0.6.0->msrestazure) (1.12.3)
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: six>=1.4.1 in d:\local\appdata\python\python36\site-packages (from cryptography>=1.1.0->adal<2.0.0,>=0.6.0->msrestazure) (1.12.0)
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: idna<2.9,>=2.5 in d:\local\appdata\python\python36\site-packages (from requests>=2.0.0->adal<2.0.0,>=0.6.0->msrestazure) (2.5)
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: chardet<3.1.0,>=3.0.2 in d:\local\appdata\python\python36\site-packages (from requests>=2.0.0->adal<2.0.0,>=0.6.0->msrestazure) (3.0.4)
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: urllib3<1.25,>=1.21.1 in d:\local\appdata\python\python36\site-packages (from requests>=2.0.0->adal<2.0.0,>=0.6.0->msrestazure) (1.21.1)
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: oauthlib>=3.0.0 in d:\local\appdata\python\python36\site-packages (from requests-oauthlib>=0.5.0->msrest<2.0.0,>=0.6.0->msrestazure) (3.0.1)
+[05/07/2019 21:01:57 > e9a183: INFO] Requirement already satisfied, skipping upgrade: pycparser in d:\local\appdata\python\python36\site-packages (from cffi!=1.11.3,>=1.8->cryptography>=1.1.0->adal<2.0.0,>=0.6.0->msrestazure) (2.19)
+[05/07/2019 21:01:58 > e9a183: INFO] Installing collected packages: adal, msrestazure
+[05/07/2019 21:01:58 > e9a183: ERR ] ERROR: azure-mgmt-resource 1.1.0 has requirement msrestazure~=0.4.7, but you'll have msrestazure 0.6.0 which is incompatible.
+[05/07/2019 21:01:58 > e9a183: ERR ] ERROR: azure-mgmt-network 1.0.0 has requirement msrestazure~=0.4.7, but you'll have msrestazure 0.6.0 which is incompatible.
+[05/07/2019 21:01:58 > e9a183: ERR ] ERROR: azure-mgmt-datalake-store 0.1.3 has requirement msrestazure~=0.4.6, but you'll have msrestazure 0.6.0 which is incompatible.
+[05/07/2019 21:01:58 > e9a183: ERR ] ERROR: azure-mgmt-datalake-analytics 0.1.3 has requirement msrestazure~=0.4.6, but you'll have msrestazure 0.6.0 which is incompatible.
+[05/07/2019 21:01:58 > e9a183: ERR ] ERROR: azure-mgmt-compute 1.0.0 has requirement msrestazure~=0.4.7, but you'll have msrestazure 0.6.0 which is incompatible.
+[05/07/2019 21:01:58 > e9a183: ERR ] ERROR: azure-mgmt-batch 4.0.0 has requirement msrestazure~=0.4.7, but you'll have msrestazure 0.6.0 which is incompatible.
+[05/07/2019 21:01:58 > e9a183: ERR ] ERROR: azure-keyvault 0.3.0 has requirement msrestazure~=0.4.7, but you'll have msrestazure 0.6.0 which is incompatible.
+[05/07/2019 21:01:58 > e9a183: ERR ] ERROR: azure-datalake-store 0.0.11 has requirement msrest~=0.4.5, but you'll have msrest 0.6.6 which is incompatible.
+[05/07/2019 21:01:58 > e9a183: ERR ] ERROR: azure-batch 3.0.0 has requirement msrestazure~=0.4.7, but you'll have msrestazure 0.6.0 which is incompatible.
+[05/07/2019 21:01:58 > e9a183: INFO]     Uninstalling adal-0.4.7:
+[05/07/2019 21:01:58 > e9a183: INFO]       Successfully uninstalled adal-0.4.7
+[05/07/2019 21:01:58 > e9a183: INFO]   Found existing installation: msrestazure 0.4.7
+[05/07/2019 21:02:00 > e9a183: INFO]     Uninstalling msrestazure-0.4.7:
+[05/07/2019 21:02:00 > e9a183: INFO]       Successfully uninstalled msrestazure-0.4.7
+[05/07/2019 21:02:00 > e9a183: INFO] Successfully installed adal-1.2.1 msrestazure-0.6.0
+[05/07/2019 21:02:00 > e9a183: INFO] 
+[05/07/2019 21:02:00 > e9a183: INFO] D:\local\Temp\jobs\triggered\InstallPackages22\s2z5ud1h.b5s\InstallPackages2.2>D:\Python34\python.exe -m pip install pathlib2 --upgrade --user 
+[05/07/2019 21:02:02 > e9a183: INFO] Collecting pathlib2
+[05/07/2019 21:02:02 > e9a183: INFO]   Downloading https://files.pythonhosted.org/packages/2a/46/c696dcf1c7aad917b39b875acdc5451975e3a9b4890dca8329983201c97a/pathlib2-2.3.3-py2.py3-none-any.whl
+[05/07/2019 21:02:02 > e9a183: INFO] Requirement already satisfied, skipping upgrade: six in d:\local\appdata\python\python36\site-packages (from pathlib2) (1.12.0)
+[05/07/2019 21:02:03 > e9a183: INFO] Installing collected packages: pathlib2
+[05/07/2019 21:02:03 > e9a183: INFO] Successfully installed pathlib2-2.3.3
+[05/07/2019 21:02:03 > e9a183: INFO] 
+[05/07/2019 21:02:03 > e9a183: INFO] D:\local\Temp\jobs\triggered\InstallPackages22\s2z5ud1h.b5s\InstallPackages2.2>D:\Python34\python.exe -m pip install scandir --upgrade --user 
+[05/07/2019 21:02:06 > e9a183: INFO] Collecting scandir
+[05/07/2019 21:02:06 > e9a183: INFO]   Downloading https://files.pythonhosted.org/packages/25/c5/257e7f38127de5221a57e6afd0eb6ad0a85412c92644bf8265f20085b22a/scandir-1.10.0-cp36-cp36m-win32.whl
+[05/07/2019 21:02:07 > e9a183: INFO] Installing collected packages: scandir
+[05/07/2019 21:02:07 > e9a183: INFO] Successfully installed scandir-1.10.0
+[05/07/2019 21:02:08 > e9a183: INFO] 
+[05/07/2019 21:02:08 > e9a183: INFO] D:\local\Temp\jobs\triggered\InstallPackages22\s2z5ud1h.b5s\InstallPackages2.2>D:\Python34\python.exe -m pip install azure-datalake-store --upgrade --user 
+[05/07/2019 21:02:10 > e9a183: INFO] Collecting azure-datalake-store
+[05/07/2019 21:02:11 > e9a183: INFO]   Downloading https://files.pythonhosted.org/packages/51/c1/66fa2137762e6e4cf084d2eeded25793bef87d0bec139a95cee4c7ef6565/azure_datalake_store-0.0.44-py2.py3-none-any.whl (52kB)
+[05/07/2019 21:02:11 > e9a183: INFO] Requirement already satisfied, skipping upgrade: adal>=0.4.2 in d:\local\appdata\python\python36\site-packages (from azure-datalake-store) (1.2.1)
+[05/07/2019 21:02:11 > e9a183: INFO] Requirement already satisfied, skipping upgrade: requests>=2.20.0 in d:\local\appdata\python\python36\site-packages (from azure-datalake-store) (2.21.0)
+[05/07/2019 21:02:11 > e9a183: INFO] Requirement already satisfied, skipping upgrade: cffi in d:\local\appdata\python\python36\site-packages (from azure-datalake-store) (1.12.3)
+[05/07/2019 21:02:11 > e9a183: INFO] Requirement already satisfied, skipping upgrade: cryptography>=1.1.0 in d:\local\appdata\python\python36\site-packages (from adal>=0.4.2->azure-datalake-store) (2.6.1)
+[05/07/2019 21:02:11 > e9a183: INFO] Requirement already satisfied, skipping upgrade: PyJWT>=1.0.0 in d:\local\appdata\python\python36\site-packages (from adal>=0.4.2->azure-datalake-store) (1.7.1)
+[05/07/2019 21:02:11 > e9a183: INFO] Requirement already satisfied, skipping upgrade: python-dateutil>=2.1.0 in d:\local\appdata\python\python36\site-packages (from adal>=0.4.2->azure-datalake-store) (2.8.0)
+[05/07/2019 21:02:11 > e9a183: INFO] Requirement already satisfied, skipping upgrade: urllib3<1.25,>=1.21.1 in d:\local\appdata\python\python36\site-packages (from requests>=2.20.0->azure-datalake-store) (1.21.1)
+[05/07/2019 21:02:11 > e9a183: INFO] Requirement already satisfied, skipping upgrade: certifi>=2017.4.17 in d:\local\appdata\python\python36\site-packages (from requests>=2.20.0->azure-datalake-store) (2019.3.9)
+[05/07/2019 21:02:11 > e9a183: INFO] Requirement already satisfied, skipping upgrade: chardet<3.1.0,>=3.0.2 in d:\local\appdata\python\python36\site-packages (from requests>=2.20.0->azure-datalake-store) (3.0.4)
+[05/07/2019 21:02:11 > e9a183: INFO] Requirement already satisfied, skipping upgrade: idna<2.9,>=2.5 in d:\local\appdata\python\python36\site-packages (from requests>=2.20.0->azure-datalake-store) (2.5)
+[05/07/2019 21:02:11 > e9a183: INFO] Requirement already satisfied, skipping upgrade: pycparser in d:\local\appdata\python\python36\site-packages (from cffi->azure-datalake-store) (2.19)
+[05/07/2019 21:02:11 > e9a183: INFO] Requirement already satisfied, skipping upgrade: six>=1.4.1 in d:\local\appdata\python\python36\site-packages (from cryptography>=1.1.0->adal>=0.4.2->azure-datalake-store) (1.12.0)
+[05/07/2019 21:02:11 > e9a183: INFO] Requirement already satisfied, skipping upgrade: asn1crypto>=0.21.0 in d:\local\appdata\python\python36\site-packages (from cryptography>=1.1.0->adal>=0.4.2->azure-datalake-store) (0.24.0)
+[05/07/2019 21:02:11 > e9a183: INFO] Installing collected packages: azure-datalake-store
+[05/07/2019 21:02:11 > e9a183: INFO]   Found existing installation: azure-datalake-store 0.0.11
+[05/07/2019 21:02:11 > e9a183: INFO]     Uninstalling azure-datalake-store-0.0.11:
+[05/07/2019 21:02:11 > e9a183: INFO]       Successfully uninstalled azure-datalake-store-0.0.11
+[05/07/2019 21:02:12 > e9a183: INFO] Successfully installed azure-datalake-store-0.0.44
+[05/07/2019 21:02:13 > e9a183: INFO] 
+[05/07/2019 21:02:13 > e9a183: INFO] D:\local\Temp\jobs\triggered\InstallPackages22\s2z5ud1h.b5s\InstallPackages2.2>D:\Python34\python.exe -m pip install azure-mgmt-datalake-store --upgrade --user 
+[05/07/2019 21:02:15 > e9a183: INFO] Collecting azure-mgmt-datalake-store
+[05/07/2019 21:02:16 > e9a183: INFO]   Downloading https://files.pythonhosted.org/packages/ff/ac/5685cd06dc8b245bb6b894815764a14bd62245ba4579b45148682f510fdd/azure_mgmt_datalake_store-0.5.0-py2.py3-none-any.whl (88kB)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: azure-common~=1.1 in d:\local\appdata\python\python36\site-packages (from azure-mgmt-datalake-store) (1.1.5)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: azure-mgmt-datalake-nspkg>=2.0.0 in d:\local\appdata\python\python36\site-packages (from azure-mgmt-datalake-store) (3.0.1)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: msrestazure<2.0.0,>=0.4.27 in d:\local\appdata\python\python36\site-packages (from azure-mgmt-datalake-store) (0.6.0)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: azure-nspkg>=2.0.0 in d:\local\appdata\python\python36\site-packages (from azure-common~=1.1->azure-mgmt-datalake-store) (3.0.2)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: azure-mgmt-nspkg>=3.0.0 in d:\local\appdata\python\python36\site-packages (from azure-mgmt-datalake-nspkg>=2.0.0->azure-mgmt-datalake-store) (3.0.2)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: adal<2.0.0,>=0.6.0 in d:\local\appdata\python\python36\site-packages (from msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (1.2.1)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: msrest<2.0.0,>=0.6.0 in d:\local\appdata\python\python36\site-packages (from msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (0.6.6)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: PyJWT>=1.0.0 in d:\local\appdata\python\python36\site-packages (from adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (1.7.1)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: cryptography>=1.1.0 in d:\local\appdata\python\python36\site-packages (from adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (2.6.1)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: python-dateutil>=2.1.0 in d:\local\appdata\python\python36\site-packages (from adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (2.8.0)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: requests>=2.0.0 in d:\local\appdata\python\python36\site-packages (from adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (2.21.0)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: certifi>=2017.4.17 in d:\local\appdata\python\python36\site-packages (from msrest<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (2019.3.9)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: requests-oauthlib>=0.5.0 in d:\local\appdata\python\python36\site-packages (from msrest<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (1.2.0)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: isodate>=0.6.0 in d:\local\appdata\python\python36\site-packages (from msrest<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (0.6.0)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: cffi!=1.11.3,>=1.8 in d:\local\appdata\python\python36\site-packages (from cryptography>=1.1.0->adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (1.12.3)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: six>=1.4.1 in d:\local\appdata\python\python36\site-packages (from cryptography>=1.1.0->adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (1.12.0)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: asn1crypto>=0.21.0 in d:\local\appdata\python\python36\site-packages (from cryptography>=1.1.0->adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (0.24.0)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: urllib3<1.25,>=1.21.1 in d:\local\appdata\python\python36\site-packages (from requests>=2.0.0->adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (1.21.1)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: chardet<3.1.0,>=3.0.2 in d:\local\appdata\python\python36\site-packages (from requests>=2.0.0->adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (3.0.4)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: idna<2.9,>=2.5 in d:\local\appdata\python\python36\site-packages (from requests>=2.0.0->adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (2.5)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: oauthlib>=3.0.0 in d:\local\appdata\python\python36\site-packages (from requests-oauthlib>=0.5.0->msrest<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (3.0.1)
+[05/07/2019 21:02:16 > e9a183: INFO] Requirement already satisfied, skipping upgrade: pycparser in d:\local\appdata\python\python36\site-packages (from cffi!=1.11.3,>=1.8->cryptography>=1.1.0->adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-store) (2.19)
+[05/07/2019 21:02:17 > e9a183: INFO] Installing collected packages: azure-mgmt-datalake-store
+[05/07/2019 21:02:17 > e9a183: INFO]   Found existing installation: azure-mgmt-datalake-store 0.1.3
+[05/07/2019 21:02:17 > e9a183: INFO]     Uninstalling azure-mgmt-datalake-store-0.1.3:
+[05/07/2019 21:02:18 > e9a183: INFO]       Successfully uninstalled azure-mgmt-datalake-store-0.1.3
+[05/07/2019 21:02:20 > e9a183: INFO] Successfully installed azure-mgmt-datalake-store-0.5.0
+[05/07/2019 21:02:21 > e9a183: INFO] 
+[05/07/2019 21:02:21 > e9a183: INFO] D:\local\Temp\jobs\triggered\InstallPackages22\s2z5ud1h.b5s\InstallPackages2.2>D:\Python34\python.exe -m pip install azure-mgmt-datalake-analytics --upgrade --user 
+[05/07/2019 21:02:23 > e9a183: INFO] Collecting azure-mgmt-datalake-analytics
+[05/07/2019 21:02:24 > e9a183: INFO]   Downloading https://files.pythonhosted.org/packages/73/e7/5d909ef5812fc31f2871f3510ef43af93157ba51be03b6f798afba7a29d8/azure_mgmt_datalake_analytics-0.6.0-py2.py3-none-any.whl (288kB)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: azure-common~=1.1 in d:\local\appdata\python\python36\site-packages (from azure-mgmt-datalake-analytics) (1.1.5)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: azure-mgmt-datalake-nspkg>=2.0.0 in d:\local\appdata\python\python36\site-packages (from azure-mgmt-datalake-analytics) (3.0.1)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: msrestazure<2.0.0,>=0.4.27 in d:\local\appdata\python\python36\site-packages (from azure-mgmt-datalake-analytics) (0.6.0)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: azure-nspkg>=2.0.0 in d:\local\appdata\python\python36\site-packages (from azure-common~=1.1->azure-mgmt-datalake-analytics) (3.0.2)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: azure-mgmt-nspkg>=3.0.0 in d:\local\appdata\python\python36\site-packages (from azure-mgmt-datalake-nspkg>=2.0.0->azure-mgmt-datalake-analytics) (3.0.2)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: adal<2.0.0,>=0.6.0 in d:\local\appdata\python\python36\site-packages (from msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (1.2.1)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: msrest<2.0.0,>=0.6.0 in d:\local\appdata\python\python36\site-packages (from msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (0.6.6)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: python-dateutil>=2.1.0 in d:\local\appdata\python\python36\site-packages (from adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (2.8.0)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: requests>=2.0.0 in d:\local\appdata\python\python36\site-packages (from adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (2.21.0)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: PyJWT>=1.0.0 in d:\local\appdata\python\python36\site-packages (from adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (1.7.1)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: cryptography>=1.1.0 in d:\local\appdata\python\python36\site-packages (from adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (2.6.1)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: requests-oauthlib>=0.5.0 in d:\local\appdata\python\python36\site-packages (from msrest<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (1.2.0)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: certifi>=2017.4.17 in d:\local\appdata\python\python36\site-packages (from msrest<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (2019.3.9)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: isodate>=0.6.0 in d:\local\appdata\python\python36\site-packages (from msrest<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (0.6.0)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: six>=1.5 in d:\local\appdata\python\python36\site-packages (from python-dateutil>=2.1.0->adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (1.12.0)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: urllib3<1.25,>=1.21.1 in d:\local\appdata\python\python36\site-packages (from requests>=2.0.0->adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (1.21.1)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: idna<2.9,>=2.5 in d:\local\appdata\python\python36\site-packages (from requests>=2.0.0->adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (2.5)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: chardet<3.1.0,>=3.0.2 in d:\local\appdata\python\python36\site-packages (from requests>=2.0.0->adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (3.0.4)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: cffi!=1.11.3,>=1.8 in d:\local\appdata\python\python36\site-packages (from cryptography>=1.1.0->adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (1.12.3)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: asn1crypto>=0.21.0 in d:\local\appdata\python\python36\site-packages (from cryptography>=1.1.0->adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (0.24.0)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: oauthlib>=3.0.0 in d:\local\appdata\python\python36\site-packages (from requests-oauthlib>=0.5.0->msrest<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (3.0.1)
+[05/07/2019 21:02:25 > e9a183: INFO] Requirement already satisfied, skipping upgrade: pycparser in d:\local\appdata\python\python36\site-packages (from cffi!=1.11.3,>=1.8->cryptography>=1.1.0->adal<2.0.0,>=0.6.0->msrestazure<2.0.0,>=0.4.27->azure-mgmt-datalake-analytics) (2.19)
+[05/07/2019 21:02:25 > e9a183: INFO] Installing collected packages: azure-mgmt-datalake-analytics
+[05/07/2019 21:02:25 > e9a183: INFO]   Found existing installation: azure-mgmt-datalake-analytics 0.1.3
+[05/07/2019 21:02:26 > e9a183: INFO]     Uninstalling azure-mgmt-datalake-analytics-0.1.3:
+[05/07/2019 21:02:26 > e9a183: INFO]       Successfully uninstalled azure-mgmt-datalake-analytics-0.1.3
+[05/07/2019 21:02:33 > e9a183: INFO] Successfully installed azure-mgmt-datalake-analytics-0.6.0
+[05/07/2019 21:02:34 > e9a183: SYS INFO] Status changed to Success
+

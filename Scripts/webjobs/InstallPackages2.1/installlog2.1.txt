@@ -1,0 +1,94 @@
+[05/07/2019 17:24:41 > e9a183: SYS INFO] Status changed to Initializing
+[05/07/2019 17:24:41 > e9a183: SYS INFO] Job directory change detected: Job file 'InstallPackages2.1\requirements.txt' timestamp differs between source and working directories.
+[05/07/2019 17:24:41 > e9a183: SYS INFO] Run script 'run.cmd' with script host - 'WindowsScriptHost'
+[05/07/2019 17:24:41 > e9a183: SYS INFO] Status changed to Running
+[05/07/2019 17:24:41 > e9a183: INFO] 
+[05/07/2019 17:24:41 > e9a183: INFO] D:\local\Temp\jobs\triggered\InstallPackages21\dfp3cliy.ewk\InstallPackages2.1>D:\Python34\python.exe -m pip install --upgrade -r requirements.txt --user 
+[05/07/2019 17:24:43 > e9a183: INFO] Collecting adal (from -r requirements.txt (line 1))
+[05/07/2019 17:24:44 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/00/72/53dce9e4f5d6c1aa57b8d408cb34dff1969ecbf10ab7e678f32c5e0e2397/adal-1.2.1-py2.py3-none-any.whl
+[05/07/2019 17:24:44 > e9a183: INFO] Collecting azure-batch==3.0.0 (from -r requirements.txt (line 2))
+[05/07/2019 17:24:44 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/d6/ec/160b256a94746329bbf854f07db5038999eae1b331c7feba6677082a674e/azure_batch-3.0.0-py2.py3-none-any.whl
+[05/07/2019 17:24:45 > e9a183: INFO] Collecting azure-keyvault==0.3.0 (from -r requirements.txt (line 3))
+[05/07/2019 17:24:45 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/14/bc/295c78ee0dc2f2d3220d4b4ea65f14f79a6f75f5115aab403468e9a15377/azure_keyvault-0.3.0-py2.py3-none-any.whl
+[05/07/2019 17:24:45 > e9a183: INFO] Collecting azure-mgmt-batch==4.0.0 (from -r requirements.txt (line 4))
+[05/07/2019 17:24:45 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/f8/27/dbe11a61a533edee18c03b43d0e45eb94fda797bea9004a30a50d33bdfe7/azure_mgmt_batch-4.0.0-py2.py3-none-any.whl
+[05/07/2019 17:24:45 > e9a183: INFO] Collecting azure-mgmt-compute==1.0.0 (from -r requirements.txt (line 5))
+[05/07/2019 17:24:45 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/47/3c/5df17568af43cb79def47510767e28c3861870a4f04dcb2c67e8f26a24f7/azure_mgmt_compute-1.0.0-py2.py3-none-any.whl
+[05/07/2019 17:24:47 > e9a183: INFO] Collecting azure-mgmt-network==1.0.0 (from -r requirements.txt (line 6))
+[05/07/2019 17:24:47 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/2a/c1/1fb4d6bcab728d05269d720e9273843260d1cb42fc3932c31a77b331f508/azure_mgmt_network-1.0.0-py2.py3-none-any.whl
+[05/07/2019 17:24:49 > e9a183: INFO] Collecting azure-mgmt-resource==1.1.0 (from -r requirements.txt (line 7))
+[05/07/2019 17:24:50 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/83/7c/7514c6f392051cc6aa6198ac589f4ba9eceaf01c7f05ac23117da1dcb61e/azure_mgmt_resource-1.1.0-py2.py3-none-any.whl
+[05/07/2019 17:24:51 > e9a183: INFO] Collecting azure-common==1.1.5 (from -r requirements.txt (line 8))
+[05/07/2019 17:24:51 > e9a183: INFO]   Downloading https://files.pythonhosted.org/packages/56/a4/6d57b76434552d9f78463d2eea0cf9519870d322407bbb50f02e990917e6/azure_common-1.1.5-py2.py3-none-any.whl
+[05/07/2019 17:24:51 > e9a183: INFO] Collecting azure-storage==0.33.0 (from -r requirements.txt (line 9))
+[05/07/2019 17:24:51 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/6e/d4/d26d82b468e1c2c7e9bf214dc75c4f0a6d10c4da839cc029e36662569c67/azure_storage-0.33.0-py3-none-any.whl
+[05/07/2019 17:24:51 > e9a183: INFO] Collecting requests==2.16 (from -r requirements.txt (line 10))
+[05/07/2019 17:24:52 > e9a183: INFO]   Downloading https://files.pythonhosted.org/packages/35/b8/8ff3310309beb5fbca033b56504f869b0c65c1f284ae2a7900593b5acd3c/requests-2.16.0-py2.py3-none-any.whl (85kB)
+[05/07/2019 17:24:52 > e9a183: INFO] Collecting blobxfer==0.12.1 (from -r requirements.txt (line 11))
+[05/07/2019 17:24:52 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/4c/16/7624e08477a2617d190fab5fd913ff63322644da1b574472c7f459956580/blobxfer-0.12.1-py2.py3-none-any.whl
+[05/07/2019 17:24:52 > e9a183: INFO] Collecting click==6.7 (from -r requirements.txt (line 12))
+[05/07/2019 17:24:52 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/34/c1/8806f99713ddb993c5366c362b2f908f18269f8d792aff1abfd700775a77/click-6.7-py2.py3-none-any.whl
+[05/07/2019 17:24:52 > e9a183: INFO] Collecting future==0.16.0 (from -r requirements.txt (line 13))
+[05/07/2019 17:24:53 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/00/2b/8d082ddfed935f3608cc61140df6dcbf0edea1bc3ab52fb6c29ae3e81e85/future-0.16.0.tar.gz
+[05/07/2019 17:24:58 > e9a183: INFO] Collecting python-dateutil>=2.1.0 (from adal->-r requirements.txt (line 1))
+[05/07/2019 17:24:58 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl
+[05/07/2019 17:24:58 > e9a183: INFO] Collecting cryptography>=1.1.0 (from adal->-r requirements.txt (line 1))
+[05/07/2019 17:24:59 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/3c/dd/b8f72fa8b9ead4207da0684180430ef2705aef9c1fb54aae4dde62ad8f15/cryptography-2.6.1-cp36-cp36m-win32.whl
+[05/07/2019 17:25:00 > e9a183: INFO] Collecting PyJWT>=1.0.0 (from adal->-r requirements.txt (line 1))
+[05/07/2019 17:25:00 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/87/8b/6a9f14b5f781697e51259d81657e6048fd31a113229cf346880bb7545565/PyJWT-1.7.1-py2.py3-none-any.whl
+[05/07/2019 17:25:00 > e9a183: INFO] Collecting azure-nspkg>=2.0.0 (from azure-batch==3.0.0->-r requirements.txt (line 2))
+[05/07/2019 17:25:00 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/c4/0c/c562be95a9a2ed52454f598571cf300b1114d0db2aa27f5b8ed3bb9cd0c0/azure_nspkg-3.0.2-py3-none-any.whl
+[05/07/2019 17:25:00 > e9a183: INFO] Collecting msrestazure~=0.4.7 (from azure-batch==3.0.0->-r requirements.txt (line 2))
+[05/07/2019 17:25:01 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/84/b4/03b254416d3d53c124564cd339ae3ebc504fe754537a4b9d4665acbbccc4/msrestazure-0.4.34-py2.py3-none-any.whl
+[05/07/2019 17:25:01 > e9a183: INFO] Collecting azure-mgmt-nspkg>=2.0.0 (from azure-mgmt-batch==4.0.0->-r requirements.txt (line 4))
+[05/07/2019 17:25:01 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/b3/c2/af4b47845f27dc7d206ed4908b9e580f8bc94a4b2f3956a0d87c40719d90/azure_mgmt_nspkg-3.0.2-py3-none-any.whl
+[05/07/2019 17:25:01 > e9a183: INFO] Collecting urllib3<1.22,>=1.21.1 (from requests==2.16->-r requirements.txt (line 10))
+[05/07/2019 17:25:01 > e9a183: INFO]   Downloading https://files.pythonhosted.org/packages/24/53/f397db567de0aa0e81b211d81c13c41a779f14893e42189cf5bdb97611b2/urllib3-1.21.1-py2.py3-none-any.whl (131kB)
+[05/07/2019 17:25:01 > e9a183: INFO] Collecting chardet<3.1.0,>=3.0.2 (from requests==2.16->-r requirements.txt (line 10))
+[05/07/2019 17:25:01 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
+[05/07/2019 17:25:01 > e9a183: INFO] Collecting certifi>=2017.4.17 (from requests==2.16->-r requirements.txt (line 10))
+[05/07/2019 17:25:02 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/60/75/f692a584e85b7eaba0e03827b3d51f45f571c2e793dd731e598828d380aa/certifi-2019.3.9-py2.py3-none-any.whl
+[05/07/2019 17:25:02 > e9a183: INFO] Collecting idna<2.6,>=2.5 (from requests==2.16->-r requirements.txt (line 10))
+[05/07/2019 17:25:02 > e9a183: INFO]   Downloading https://files.pythonhosted.org/packages/11/7d/9bbbd7bb35f34b0169542487d2a8859e44306bb2e6a4455d491800a5621f/idna-2.5-py2.py3-none-any.whl (55kB)
+[05/07/2019 17:25:02 > e9a183: INFO] Collecting azure-servicemanagement-legacy==0.20.5 (from blobxfer==0.12.1->-r requirements.txt (line 11))
+[05/07/2019 17:25:02 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/63/a8/66d0210b99002342cc44cc9411d118917dd1bdb2f15db94fc6bc9e9477e2/azure_servicemanagement_legacy-0.20.5-py2.py3-none-any.whl
+[05/07/2019 17:25:02 > e9a183: INFO] Collecting six>=1.5 (from python-dateutil>=2.1.0->adal->-r requirements.txt (line 1))
+[05/07/2019 17:25:02 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+[05/07/2019 17:25:02 > e9a183: INFO] Collecting asn1crypto>=0.21.0 (from cryptography>=1.1.0->adal->-r requirements.txt (line 1))
+[05/07/2019 17:25:02 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/ea/cd/35485615f45f30a510576f1a56d1e0a7ad7bd8ab5ed7cdc600ef7cd06222/asn1crypto-0.24.0-py2.py3-none-any.whl
+[05/07/2019 17:25:03 > e9a183: INFO] Collecting cffi!=1.11.3,>=1.8 (from cryptography>=1.1.0->adal->-r requirements.txt (line 1))
+[05/07/2019 17:25:03 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/f3/02/25f50058ce6e3d482c74b49d5c366132a4985038e2672d58521fc9624db9/cffi-1.12.3-cp36-cp36m-win32.whl
+[05/07/2019 17:25:04 > e9a183: INFO] Collecting keyring>=12.0.2 (from msrestazure~=0.4.7->azure-batch==3.0.0->-r requirements.txt (line 2))
+[05/07/2019 17:25:04 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/29/54/22d12573bae3cccd1fb9ead7f69409257be16f7bdd7281f939b035a76399/keyring-19.0.1-py2.py3-none-any.whl
+[05/07/2019 17:25:04 > e9a183: INFO] Collecting msrest<2.0.0,>=0.4.28 (from msrestazure~=0.4.7->azure-batch==3.0.0->-r requirements.txt (line 2))
+[05/07/2019 17:25:04 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/d7/fa/bb4197e25ff01d089dc0584ad8e7d6c2615ae28b9e850afd165927c89576/msrest-0.6.6-py2.py3-none-any.whl
+[05/07/2019 17:25:04 > e9a183: INFO] Collecting pycparser (from cffi!=1.11.3,>=1.8->cryptography>=1.1.0->adal->-r requirements.txt (line 1))
+[05/07/2019 17:25:05 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/68/9e/49196946aee219aead1290e00d1e7fdeab8567783e83e1b9ab5585e6206a/pycparser-2.19.tar.gz
+[05/07/2019 17:25:07 > e9a183: INFO] Collecting entrypoints (from keyring>=12.0.2->msrestazure~=0.4.7->azure-batch==3.0.0->-r requirements.txt (line 2))
+[05/07/2019 17:25:07 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/ac/c6/44694103f8c221443ee6b0041f69e2740d89a25641e62fb4f2ee568f2f9c/entrypoints-0.3-py2.py3-none-any.whl
+[05/07/2019 17:25:07 > e9a183: INFO] Collecting pywin32-ctypes!=0.1.0,!=0.1.1; sys_platform == "win32" (from keyring>=12.0.2->msrestazure~=0.4.7->azure-batch==3.0.0->-r requirements.txt (line 2))
+[05/07/2019 17:25:07 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/9e/4b/3ab2720f1fa4b4bc924ef1932b842edf10007e4547ea8157b0b9fc78599a/pywin32_ctypes-0.2.0-py2.py3-none-any.whl
+[05/07/2019 17:25:08 > e9a183: INFO] Collecting isodate>=0.6.0 (from msrest<2.0.0,>=0.4.28->msrestazure~=0.4.7->azure-batch==3.0.0->-r requirements.txt (line 2))
+[05/07/2019 17:25:08 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/9b/9f/b36f7774ff5ea8e428fdcfc4bb332c39ee5b9362ddd3d40d9516a55221b2/isodate-0.6.0-py2.py3-none-any.whl
+[05/07/2019 17:25:08 > e9a183: INFO] Collecting requests-oauthlib>=0.5.0 (from msrest<2.0.0,>=0.4.28->msrestazure~=0.4.7->azure-batch==3.0.0->-r requirements.txt (line 2))
+[05/07/2019 17:25:08 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/c2/e2/9fd03d55ffb70fe51f587f20bcf407a6927eb121de86928b34d162f0b1ac/requests_oauthlib-1.2.0-py2.py3-none-any.whl
+[05/07/2019 17:25:08 > e9a183: INFO] Collecting oauthlib>=3.0.0 (from requests-oauthlib>=0.5.0->msrest<2.0.0,>=0.4.28->msrestazure~=0.4.7->azure-batch==3.0.0->-r requirements.txt (line 2))
+[05/07/2019 17:25:08 > e9a183: INFO]   Using cached https://files.pythonhosted.org/packages/16/95/699466b05b72b94a41f662dc9edf87fda4289e3602ecd42d27fcaddf7b56/oauthlib-3.0.1-py2.py3-none-any.whl
+[05/07/2019 17:25:09 > e9a183: ERR ] ERROR: blobxfer 0.12.1 has requirement azure-common==1.1.4, but you'll have azure-common 1.1.5 which is incompatible.
+[05/07/2019 17:25:09 > e9a183: ERR ] ERROR: blobxfer 0.12.1 has requirement requests==2.12.3, but you'll have requests 2.16.0 which is incompatible.
+[05/07/2019 17:25:09 > e9a183: INFO] Installing collected packages: six, python-dateutil, asn1crypto, pycparser, cffi, cryptography, PyJWT, urllib3, chardet, certifi, idna, requests, adal, azure-nspkg, entrypoints, pywin32-ctypes, keyring, isodate, oauthlib, requests-oauthlib, msrest, msrestazure, azure-common, azure-batch, azure-keyvault, azure-mgmt-nspkg, azure-mgmt-batch, azure-mgmt-compute, azure-mgmt-network, azure-mgmt-resource, azure-storage, azure-servicemanagement-legacy, blobxfer, click, future
+[05/07/2019 17:25:11 > e9a183: INFO]   Running setup.py install for pycparser: started
+[05/07/2019 17:25:15 > e9a183: INFO]     Running setup.py install for pycparser: finished with status 'done'
+[05/07/2019 17:25:18 > e9a183: ERR ]   WARNING: The script pyjwt.exe is installed in 'D:\local\AppData\Python\Python36\Scripts' which is not on PATH.
+[05/07/2019 17:25:18 > e9a183: ERR ]   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+[05/07/2019 17:25:21 > e9a183: ERR ]   WARNING: The script chardetect.exe is installed in 'D:\local\AppData\Python\Python36\Scripts' which is not on PATH.
+[05/07/2019 17:25:21 > e9a183: ERR ]   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+[05/07/2019 17:25:24 > e9a183: ERR ]   WARNING: The script keyring.exe is installed in 'D:\local\AppData\Python\Python36\Scripts' which is not on PATH.
+[05/07/2019 17:25:24 > e9a183: ERR ]   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+[05/07/2019 17:26:14 > e9a183: ERR ]   WARNING: The script blobxfer.exe is installed in 'D:\local\AppData\Python\Python36\Scripts' which is not on PATH.
+[05/07/2019 17:26:14 > e9a183: ERR ]   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+[05/07/2019 17:26:15 > e9a183: INFO]   Running setup.py install for future: started
+[05/07/2019 17:26:24 > e9a183: INFO]     Running setup.py install for future: finished with status 'done'
+[05/07/2019 17:26:25 > e9a183: INFO] Successfully installed PyJWT-1.7.1 adal-1.2.1 asn1crypto-0.24.0 azure-batch-3.0.0 azure-common-1.1.5 azure-keyvault-0.3.0 azure-mgmt-batch-4.0.0 azure-mgmt-compute-1.0.0 azure-mgmt-network-1.0.0 azure-mgmt-nspkg-3.0.2 azure-mgmt-resource-1.1.0 azure-nspkg-3.0.2 azure-servicemanagement-legacy-0.20.5 azure-storage-0.33.0 blobxfer-0.12.1 certifi-2019.3.9 cffi-1.12.3 chardet-3.0.4 click-6.7 cryptography-2.6.1 entrypoints-0.3 future-0.16.0 idna-2.5 isodate-0.6.0 keyring-19.0.1 msrest-0.6.6 msrestazure-0.4.34 oauthlib-3.0.1 pycparser-2.19 python-dateutil-2.8.0 pywin32-ctypes-0.2.0 requests-2.16.0 requests-oauthlib-1.2.0 six-1.12.0 urllib3-1.21.1
+[05/07/2019 17:26:34 > e9a183: SYS INFO] Status changed to Success
+

@@ -1,0 +1,28 @@
+Creating ADL client took 0.12853121757507324 seconds.
+Started solving optimization problem
+Downloading optimization/input_csv/sQ/4/18_1/sQ_1_P_0_4_18_1.csv
+data.load(filename = 'sQ_1_P_0_4_18_1.csv', param = (model.a))
+finished execution
+Downloading optimization/input_csv/sQ/4/18_1/sQ_2_P_0_4_18_1.csv
+data.load(filename = 'sQ_2_P_0_4_18_1.csv', param = (model.h))
+finished execution
+Downloading optimization/input_csv/sQ/4/18_1/sQ_3_P_0_4_18_1.csv
+data.load(filename = 'sQ_3_P_0_4_18_1.csv', param = (model.K))
+finished execution
+Downloading optimization/input_csv/sQ/4/18_1/sQ_4_P_0_4_18_1.csv
+data.load(filename = 'sQ_4_P_0_4_18_1.csv', param = (model.max_demand))
+finished execution
+Downloading optimization/input_csv/sQ/4/18_1/sQ_5_P_0_4_18_1.csv
+data.load(filename = 'sQ_5_P_0_4_18_1.csv', param = (model.mu))
+finished execution
+Downloading optimization/input_csv/sQ/4/18_1/sQ_6_P_0_4_18_1.csv
+data.load(filename = 'sQ_6_P_0_4_18_1.csv', param = (model.pi))
+finished execution
+Downloading optimization/input_csv/sQ/4/18_1/sQ_7_P_1_4_18_1.csv
+data.load(filename = 'sQ_7_P_1_4_18_1.csv', param = (model.prob_demand), index = (model.big_demand))
+finished execution
+Solving optimization problem took 2.946185827255249 seconds.
+Total time for generating solution:  2.9477992057800293 seconds.
+Uploading file /mnt/batch/tasks/workitems/InventoryOptimization_s_Q_201701090000/job-1/task_4_18_1/wd/s_Q_201701090000.csv to ADL folder [/optimization/output_csv/sQ/4/18_1]...
+Uploading results took  0.3216087818145752 seconds.
+Total time: 3.4003818035125732 seconds.

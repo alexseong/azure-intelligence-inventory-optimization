@@ -1,0 +1,15 @@
+[05/08/2019 17:46:58 > 18994d: SYS INFO] Status changed to Initializing
+[05/08/2019 17:46:58 > 18994d: SYS INFO] Job directory change detected: Job file 'UploadStaticDataToADLS\uploadToADLS.py' timestamp differs between source and working directories.
+[05/08/2019 17:47:05 > 18994d: SYS INFO] Run script 'run.cmd' with script host - 'WindowsScriptHost'
+[05/08/2019 17:47:05 > 18994d: SYS INFO] Status changed to Running
+[05/08/2019 17:47:05 > 18994d: INFO] 
+[05/08/2019 17:47:05 > 18994d: INFO] D:\local\Temp\jobs\triggered\UploadStaticDataToADLS\k3soltqq.yfb\UploadStaticDataToADLS>D:\Python34\python.exe uploadToADLS.py 
+[05/08/2019 17:58:36 > 18994d: INFO] current working directory: D:\local\Temp\jobs\triggered\UploadStaticDataToADLS\k3soltqq.yfb\UploadStaticDataToADLS
+[05/08/2019 17:58:36 > 18994d: INFO] ['optimization', 'orders', 'privateparameters', 'publicparameters', 'rawdata']
+[05/08/2019 17:58:36 > 18994d: INFO] D:\local\Temp\jobs\triggered\UploadStaticDataToADLS\k3soltqq.yfb\UploadStaticDataToADLS\staticData\optimization
+[05/08/2019 17:58:36 > 18994d: INFO] D:\local\Temp\jobs\triggered\UploadStaticDataToADLS\k3soltqq.yfb\UploadStaticDataToADLS\staticData\orders
+[05/08/2019 17:58:36 > 18994d: INFO] D:\local\Temp\jobs\triggered\UploadStaticDataToADLS\k3soltqq.yfb\UploadStaticDataToADLS\staticData\privateparameters
+[05/08/2019 17:58:36 > 18994d: INFO] D:\local\Temp\jobs\triggered\UploadStaticDataToADLS\k3soltqq.yfb\UploadStaticDataToADLS\staticData\publicparameters
+[05/08/2019 17:58:36 > 18994d: INFO] D:\local\Temp\jobs\triggered\UploadStaticDataToADLS\k3soltqq.yfb\UploadStaticDataToADLS\staticData\rawdata
+[05/08/2019 17:58:36 > 18994d: SYS INFO] Status changed to Success
+
